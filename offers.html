@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Акции и скидки сервисного центра ChipFix в Минске. Бесплатная диагностика, специальные предложения на ремонт техники.">
+    <title>Акции и скидки - ChipFix | Сервисный центр в Минске</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <!-- Кнопка прокрутки наверх -->
+    <button class="scroll-to-top" id="scrollToTop" aria-label="Прокрутить наверх">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7 14L12 9L17 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html" style="text-decoration: none; color: inherit;">
+                        <h1>ChipFix</h1>
+                        <span>Сервисный центр</span>
+                    </a>
+                </div>
+                
+                <nav class="nav" id="mainNav">
+                    <a href="index.html#services" class="nav-link">Услуги и цены</a>
+                    <a href="offers.html" class="nav-link">Акции</a>
+                    <a href="reviews.html" class="nav-link">Отзывы</a>
+                    <a href="price.html" class="nav-link">Прайс-лист</a>
+                    <a href="contacts.html" class="nav-link">Контакты</a>
+                </nav>
+                
+                <div class="header-contacts">
+                    <div class="phone">
+                        <a href="tel:+375297679673">+375 (29) 767-96-73</a>
+                        <span>Вайбер / Телеграм</span>
+                    </div>
+                    <div class="work-hours">
+                        <span>Пн-Пт: 10:00—19:00</span>
+                        <span>Сб: 10:00—16:00</span>
+                    </div>
+                </div>
+                
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-content">
+                <h1>Акции и скидки</h1>
+                <p>Специальные предложения для наших клиентов</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Offer -->
+    <section class="main-offer">
+        <div class="container">
+            <div class="main-offer-card">
+                <div class="offer-badge">🎯 ПОСТОЯННАЯ АКЦИЯ</div>
+                <div class="offer-content">
+                    <div class="offer-text">
+                        <h2>Бесплатная диагностика</h2>
+                        <p class="offer-description">
+                            Проведем полную диагностику вашего устройства абсолютно бесплатно! 
+                            Определим причину неисправности и предложим оптимальное решение.
+                        </p>
+                        <ul class="offer-features">
+                            <li>✅ Диагностика любых устройств</li>
+                            <li>✅ Подробный отчет о состоянии</li>
+                            <li>✅ Рекомендации по ремонту</li>
+                            <li>✅ Без скрытых платежей</li>
+                        </ul>
+                        <div class="offer-cta">
+                            <button class="btn btn-primary popup-trigger" data-popup="diagnostic">Записаться на диагностику</button>
+                            <span class="offer-note">Заявка бесплатная</span>
+                        </div>
+                    </div>
+                    <div class="offer-image">
+                        <div class="offer-visual">
+                            <span class="offer-icon">🔍</span>
+                            <div class="offer-devices">
+                                <span>💻</span>
+                                <span>📱</span>
+                                <span>🖨️</span>
+                                <span>☕</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Offers -->
+    <section class="special-offers">
+        <div class="container">
+            <h2 class="section-title">Специальные предложения</h2>
+            <div class="offers-grid">
+                
+                <div class="offer-card">
+                    <div class="offer-header">
+                        <div class="offer-discount">-15%</div>
+                        <div class="offer-validity">До 31.03.2024</div>
+                    </div>
+                    <h3>Скидка на ремонт ноутбуков</h3>
+                    <p>При замене матрицы или клавиатуры - скидка 15% на работы. Экономия до 30 рублей!</p>
+                    <div class="offer-details">
+                        <span class="offer-tag">Ноутбуки</span>
+                        <span class="offer-tag">Замена комплектующих</span>
+                    </div>
+                    <button class="offer-btn popup-trigger" data-popup="offer">Воспользоваться</button>
+                </div>
+
+                <div class="offer-card">
+                    <div class="offer-header">
+                        <div class="offer-discount">2+1</div>
+                        <div class="offer-validity">Постоянно</div>
+                    </div>
+                    <h3>Заправка картриджей</h3>
+                    <p>При заказе заправки 2-х картриджей - третий заправляем бесплатно. Выгода очевидна!</p>
+                    <div class="offer-details">
+                        <span class="offer-tag">Принтеры</span>
+                        <span class="offer-tag">Картриджи</span>
+                    </div>
+                    <button class="offer-btn popup-trigger" data-popup="offer">Воспользоваться</button>
+                </div>
+
+                <div class="offer-card">
+                    <div class="offer-header">
+                        <div class="offer-discount">-20%</div>
+                        <div class="offer-validity">Для пенсионеров</div>
+                    </div>
+                    <h3>Льготы для пенсионеров</h3>
+                    <p>Пенсионерам предоставляем скидку 20% на все виды ремонтных работ. При предъявлении удостоверения.</p>
+                    <div class="offer-details">
+                        <span class="offer-tag">Все услуги</span>
+                        <span class="offer-tag">Социальная скидка</span>
+                    </div>
+                    <button class="offer-btn popup-trigger" data-popup="offer">Воспользоваться</button>
+                </div>
+
+                <div class="offer-card">
+                    <div class="offer-header">
+                        <div class="offer-discount">-10%</div>
+                        <div class="offer-validity">Постоянно</div>
+                    </div>
+                    <h3>Повторное обращение</h3>
+                    <p>Скидка 10% на любые работы для клиентов, которые уже обращались к нам ранее. Ценим постоянных клиентов!</p>
+                    <div class="offer-details">
+                        <span class="offer-tag">Все услуги</span>
+                        <span class="offer-tag">Постоянным клиентам</span>
+                    </div>
+                    <button class="offer-btn popup-trigger" data-popup="offer">Воспользоваться</button>
+                </div>
+
+                <div class="offer-card">
+                    <div class="offer-header">
+                        <div class="offer-discount">🎁</div>
+                        <div class="offer-validity">При ремонте</div>
+                    </div>
+                    <h3>Бесплатная чистка</h3>
+                    <p>При любом ремонте ноутбука или компьютера - чистка от пыли в подарок. Ваше устройство будет работать лучше!</p>
+                    <div class="offer-details">
+                        <span class="offer-tag">Компьютеры</span>
+                        <span class="offer-tag">Ноутбуки</span>
+                    </div>
+                    <button class="offer-btn popup-trigger" data-popup="offer">Воспользоваться</button>
+                </div>
+
+                <div class="offer-card">
+                    <div class="offer-header">
+                        <div class="offer-discount">💰</div>
+                        <div class="offer-validity">Выгодно</div>
+                    </div>
+                    <h3>Комплексный ремонт</h3>
+                    <p>При заказе нескольких видов работ - дополнительная скидка до 25%. Чем больше заказ, тем больше экономия!</p>
+                    <div class="offer-details">
+                        <span class="offer-tag">Комплекс работ</span>
+                        <span class="offer-tag">Максимальная выгода</span>
+                    </div>
+                    <button class="offer-btn popup-trigger" data-popup="offer">Воспользоваться</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Use Offers -->
+    <section class="how-to-use">
+        <div class="container">
+            <h2 class="section-title">Как воспользоваться акциями</h2>
+            <div class="steps-grid">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Позвоните нам</h3>
+                    <p>Свяжитесь с нами по телефону <a href="tel:+375297679673">+375 (29) 767-96-73</a> или через мессенджеры</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Упомяните акцию</h3>
+                    <p>Обязательно скажите менеджеру, какой акцией хотите воспользоваться</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Принесите устройство</h3>
+                    <p>Приносите технику в наш сервис по адресу: пр. Независимости, 91</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Получите скидку</h3>
+                    <p>Мы применим скидку при оформлении заказа на ремонт</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Terms and Conditions -->
+    <section class="terms">
+        <div class="container">
+            <h2 class="section-title">Условия акций</h2>
+            <div class="terms-content">
+                <div class="terms-grid">
+                    <div class="terms-item">
+                        <h3>📋 Общие условия</h3>
+                        <ul>
+                            <li>Акции действуют при предъявлении устройства</li>
+                            <li>Скидки не суммируются, применяется максимальная</li>
+                            <li>Сроки акций указаны в описании каждого предложения</li>
+                            <li>Подробности уточняйте по телефону</li>
+                        </ul>
+                    </div>
+                    <div class="terms-item">
+                        <h3>⏰ Важно знать</h3>
+                        <ul>
+                            <li>Бесплатная диагностика не означает бесплатный ремонт</li>
+                            <li>Стоимость ремонта озвучивается после диагностики</li>
+                            <li>Если отказываетесь от ремонта - диагностика остается бесплатной</li>
+                            <li>Гарантия на работы предоставляется в любом случае</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="contact-offer">
+                    <div class="contact-offer-content">
+                        <h3>Остались вопросы?</h3>
+                        <p>Звоните прямо сейчас и получите консультацию специалиста</p>
+                        <button class="btn btn-primary popup-trigger" data-popup="consultation">Получить консультацию</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>ChipFix</h4>
+                    <p>Профессиональный ремонт техники в Минске</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <p>+375 (29) 767-96-73</p>
+                    <p>проспект Независимости, 91</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Время работы</h4>
+                    <p>Пн-Пт: 10:00—19:00</p>
+                    <p>Сб: 10:00—16:00</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ChipFix. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <style>
+        /* Дополнительные стили для страницы акций */
+
+        .page-hero-content h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .page-hero-content p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .main-offer {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .main-offer-card {
+            background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+            border-radius: 20px;
+            padding: 40px;
+            border: 2px solid #667eea;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .offer-badge {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: #48bb78;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        .offer-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .offer-text h2 {
+            font-size: 2.2rem;
+            color: #667eea;
+            margin-bottom: 20px;
+        }
+
+        .offer-description {
+            font-size: 1.1rem;
+            color: #4a5568;
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+
+        .offer-features {
+            list-style: none;
+            margin: 25px 0;
+        }
+
+        .offer-features li {
+            padding: 8px 0;
+            font-size: 1rem;
+            color: #4a5568;
+        }
+
+        .offer-cta {
+            margin-top: 30px;
+        }
+
+        .offer-note {
+            display: block;
+            margin-top: 10px;
+            font-size: 0.9rem;
+            color: #718096;
+        }
+
+        .offer-visual {
+            text-align: center;
+            padding: 40px;
+        }
+
+        .offer-icon {
+            font-size: 4rem;
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        .offer-devices {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+
+        .offer-devices span {
+            font-size: 2.5rem;
+            padding: 15px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .special-offers {
+            padding: 80px 0;
+            background: #f7fafc;
+        }
+
+        .offers-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+            align-items: stretch;
+        }
+
+        .offer-card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            border-top: 4px solid #667eea;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .offer-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .offer-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .offer-discount {
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+
+        .offer-validity {
+            background: #48bb78;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.9rem;
+        }
+
+        .offer-card h3 {
+            color: #2d3748;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+        }
+
+        .offer-card p {
+            color: #4a5568;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .offer-details {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .offer-tag {
+            background: #edf2f7;
+            color: #4a5568;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.9rem;
+        }
+
+        .offer-btn {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin-top: auto;
+        }
+
+        .offer-btn:hover {
+            background: #5a67d8;
+            transform: translateY(-1px);
+        }
+
+        .how-to-use {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .steps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .step {
+            text-align: center;
+            padding: 30px;
+            background: #f7fafc;
+            border-radius: 15px;
+            position: relative;
+        }
+
+        .step-number {
+            width: 50px;
+            height: 50px;
+            background: #667eea;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin: 0 auto 20px;
+        }
+
+        .step h3 {
+            color: #2d3748;
+            margin-bottom: 15px;
+        }
+
+        .step p {
+            color: #4a5568;
+            line-height: 1.6;
+        }
+
+        .step a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .terms {
+            padding: 80px 0;
+            background: #f7fafc;
+        }
+
+        .terms-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .terms-item {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .terms-item h3 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.2rem;
+        }
+
+        .terms-item ul {
+            list-style: none;
+        }
+
+        .terms-item li {
+            padding: 8px 0;
+            color: #4a5568;
+            border-bottom: 1px solid #e2e8f0;
+            position: relative;
+            padding-left: 20px;
+        }
+
+        .terms-item li:before {
+            content: '•';
+            color: #667eea;
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+
+        .terms-item li:last-child {
+            border-bottom: none;
+        }
+
+        .contact-offer {
+            margin-top: 50px;
+        }
+
+        .contact-offer-content {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .contact-offer-content h3 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+
+        .contact-offer-content p {
+            margin-bottom: 25px;
+            opacity: 0.9;
+        }
+
+        @media (max-width: 768px) {
+            .offer-content {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .offers-grid {
+                grid-template-columns: 1fr;
+                align-items: stretch;
+            }
+
+            .offer-card {
+                display: flex;
+                flex-direction: column;
+                height: auto;
+                min-height: 300px;
+            }
+
+            .steps-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .terms-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .main-offer-card {
+                padding: 25px;
+            }
+
+            .offer-badge {
+                position: static;
+                display: inline-block;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+
+    <!-- Popup форма -->
+    <div class="popup-overlay" id="popupOverlay">
+        <div class="popup-content">
+            <button class="popup-close" id="popupClose">&times;</button>
+            <h3 id="popupTitle">Воспользоваться акцией</h3>
+            <p id="popupSubtitle">Оставьте ваши контакты и мы свяжемся с вами в течение 15 минут</p>
+            <form class="popup-form" id="popupForm">
+                <div class="form-group">
+                    <input type="text" id="userName" name="name" placeholder="Ваше имя" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="userPhone" name="phone" placeholder="+375 (__) ___-__-__" required>
+                </div>
+                <button type="submit" class="btn btn-primary popup-submit">Отправить заявку</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

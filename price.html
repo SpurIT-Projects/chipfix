@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Прайс-лист сервисного центра ChipFix в Минске. Цены на ремонт компьютеров, ноутбуков, планшетов, принтеров и бытовой техники.">
+    <title>Прайс-лист - ChipFix | Цены на ремонт техники в Минске</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <!-- Кнопка прокрутки наверх -->
+    <button class="scroll-to-top" id="scrollToTop" aria-label="Прокрутить наверх">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7 14L12 9L17 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </button>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html" style="text-decoration: none; color: inherit;">
+                        <h1>ChipFix</h1>
+                        <span>Сервисный центр</span>
+                    </a>
+                </div>
+                
+                <nav class="nav" id="mainNav">
+                    <a href="index.html#services" class="nav-link">Услуги и цены</a>
+                    <a href="offers.html" class="nav-link">Акции</a>
+                    <a href="reviews.html" class="nav-link">Отзывы</a>
+                    <a href="price.html" class="nav-link">Прайс-лист</a>
+                    <a href="contacts.html" class="nav-link">Контакты</a>
+                </nav>
+                
+                <div class="header-contacts">
+                    <div class="phone">
+                        <a href="tel:+375297679673">+375 (29) 767-96-73</a>
+                        <span>Вайбер / Телеграм</span>
+                    </div>
+                    <div class="work-hours">
+                        <span>Пн-Пт: 10:00—19:00</span>
+                        <span>Сб: 10:00—16:00</span>
+                    </div>
+                </div>
+                
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <div class="page-hero-content">
+                <h1>Прайс-лист</h1>
+                <p>Прозрачные цены на все виды ремонта</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Price Info -->
+    <section class="price-info">
+        <div class="container">
+            <div class="info-grid">
+                <div class="info-item">
+                    <div class="info-icon">🔍</div>
+                    <h3>Бесплатная диагностика</h3>
+                    <p>Определим проблему без оплаты</p>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon">💰</div>
+                    <h3>Честные цены</h3>
+                    <p>Без скрытых доплат и накруток</p>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon">🛡️</div>
+                    <h3>Гарантия на работы</h3>
+                    <p>Отвечаем за качество ремонта</p>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon">⚡</div>
+                    <h3>Быстрые сроки</h3>
+                    <p>Большинство работ за 1-3 дня</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Price Tables -->
+    <section class="price-tables">
+        <div class="container">
+            
+            <!-- Компьютеры и ноутбуки -->
+            <div class="price-category">
+                <h2 class="category-title">💻 Ремонт компьютеров и ноутбуков</h2>
+                <div class="price-table">
+                    <div class="price-row price-header">
+                        <span>Услуга</span>
+                        <span>Цена (BYN)</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Диагностика</span>
+                        <span class="price-free">Бесплатно</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Чистка от пыли</span>
+                        <span>от 15</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Замена термопасты</span>
+                        <span>от 20</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Замена клавиатуры ноутбука</span>
+                        <span>от 35</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Замена матрицы ноутбука</span>
+                        <span>от 50</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Замена жесткого диска</span>
+                        <span>от 25</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Установка операционной системы</span>
+                        <span>от 30</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Восстановление данных</span>
+                        <span>от 40</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Ремонт материнской платы</span>
+                        <span>от 60</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Замена батареи ноутбука</span>
+                        <span>от 30</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Планшеты -->
+            <div class="price-category">
+                <h2 class="category-title">📱 Ремонт планшетов</h2>
+                <div class="price-table">
+                    <div class="price-row price-header">
+                        <span>Услуга</span>
+                        <span>Цена (BYN)</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Диагностика</span>
+                        <span class="price-free">Бесплатно</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Замена экрана</span>
+                        <span>от 45</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Замена аккумулятора</span>
+                        <span>от 35</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Замена гнезда зарядки</span>
+                        <span>от 25</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Перепрошивка</span>
+                        <span>от 30</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Разблокировка</span>
+                        <span>от 25</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Восстановление ПО</span>
+                        <span>от 20</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Техника Apple -->
+            <div class="price-category">
+                <h2 class="category-title">🍎 Ремонт техники Apple</h2>
+                <div class="price-table">
+                    <div class="price-row price-header">
+                        <span>Услуга</span>
+                        <span>Цена (BYN)</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Диагностика</span>
+                        <span class="price-free">Бесплатно</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Ремонт MacBook (замена клавиатуры)</span>
+                        <span>от 80</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Ремонт MacBook (замена экрана)</span>
+                        <span>от 120</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Ремонт iMac</span>
+                        <span>от 70</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Ремонт iPad (замена экрана)</span>
+                        <span>от 85</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Перепрошивка iPhone/iPad</span>
+                        <span>от 35</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Разблокировка iPad</span>
+                        <span>от 40</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Принтеры и МФУ -->
+            <div class="price-category">
+                <h2 class="category-title">🖨️ Ремонт принтеров и МФУ</h2>
+                <div class="price-table">
+                    <div class="price-row price-header">
+                        <span>Услуга</span>
+                        <span>Цена (BYN)</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Диагностика</span>
+                        <span class="price-free">Бесплатно</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Заправка картриджа (черный)</span>
+                        <span>от 12</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Заправка картриджа (цветной)</span>
+                        <span>от 18</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Чистка принтера</span>
+                        <span>от 20</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Чистка лазера</span>
+                        <span>от 25</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Прошивка принтера</span>
+                        <span>от 30</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Ремонт МФУ</span>
+                        <span>от 40</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Ремонт сканера</span>
+                        <span>от 35</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Бытовая техника -->
+            <div class="price-category">
+                <h2 class="category-title">🏠 Ремонт бытовой техники</h2>
+                <div class="price-table">
+                    <div class="price-row price-header">
+                        <span>Услуга</span>
+                        <span>Цена (BYN)</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Диагностика</span>
+                        <span class="price-free">Бесплатно</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Ремонт пылесоса</span>
+                        <span>от 25</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Ремонт кофемашины</span>
+                        <span>от 35</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Ремонт микроволновой печи</span>
+                        <span>от 30</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Ремонт утюга</span>
+                        <span>от 20</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Ремонт блендера</span>
+                        <span>от 18</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Ремонт мясорубки</span>
+                        <span>от 22</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Ремонт хлебопечки</span>
+                        <span>от 25</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Ремонт кухонного комбайна</span>
+                        <span>от 30</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Другая техника -->
+            <div class="price-category">
+                <h2 class="category-title">⚡ Другая техника</h2>
+                <div class="price-table">
+                    <div class="price-row price-header">
+                        <span>Услуга</span>
+                        <span>Цена (BYN)</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Диагностика</span>
+                        <span class="price-free">Бесплатно</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Ремонт наушников</span>
+                        <span>от 15</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Ремонт электросамоката</span>
+                        <span>от 40</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Ремонт гироскутера</span>
+                        <span>от 35</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Ремонт электронной книги</span>
+                        <span>от 25</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Ремонт игровой приставки</span>
+                        <span>от 45</span>
+                    </div>
+                    <div class="price-row">
+                        <span>Ремонт ИБП</span>
+                        <span>от 30</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Price Notes -->
+    <section class="price-notes">
+        <div class="container">
+            <div class="notes-content">
+                <h2 class="section-title">Важная информация о ценах</h2>
+                <div class="notes-grid">
+                    <div class="note-card">
+                        <h3>📋 О ценах</h3>
+                        <ul>
+                            <li>Указаны цены только за работу мастера</li>
+                            <li>Стоимость запчастей рассчитывается отдельно</li>
+                            <li>Окончательная цена озвучивается после диагностики</li>
+                            <li>Цены актуальны на декабрь 2024 года</li>
+                        </ul>
+                    </div>
+                    <div class="note-card">
+                        <h3>⏰ Сроки выполнения</h3>
+                        <ul>
+                            <li>Диагностика: в течение дня</li>
+                            <li>Простой ремонт: 1-2 дня</li>
+                            <li>Сложный ремонт: 3-5 дней</li>
+                            <li>Ремонт с заказом запчастей: 5-10 дней</li>
+                        </ul>
+                    </div>
+                    <div class="note-card">
+                        <h3>🛡️ Гарантии</h3>
+                        <ul>
+                            <li>На все работы - от 1 месяца</li>
+                            <li>На установленные запчасти - от 3 месяцев</li>
+                            <li>Гарантия не распространяется на механические повреждения</li>
+                            <li>Подробные условия в гарантийном талоне</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="contact-cta">
+                    <div class="cta-content">
+                        <h3>Нужна точная стоимость ремонта?</h3>
+                        <p>Принесите ваше устройство на бесплатную диагностику</p>
+                        <div class="cta-buttons">
+                            <button class="btn btn-primary popup-trigger" data-popup="consultation">Получить консультацию</button>
+                            <a href="contacts.html" class="btn btn-secondary">Как добраться</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>ChipFix</h4>
+                    <p>Профессиональный ремонт техники в Минске</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <p>+375 (29) 767-96-73</p>
+                    <p>проспект Независимости, 91</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Время работы</h4>
+                    <p>Пн-Пт: 10:00—19:00</p>
+                    <p>Сб: 10:00—16:00</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ChipFix. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <style>
+        /* Дополнительные стили для прайс-листа */
+
+        .page-hero-content p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .price-info {
+            padding: 60px 0;
+            background: white;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .info-item {
+            text-align: center;
+            padding: 25px;
+            background: #f7fafc;
+            border-radius: 12px;
+        }
+
+        .info-icon {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+
+        .info-item h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        .info-item p {
+            color: #4a5568;
+        }
+
+        .price-tables {
+            padding: 80px 0;
+            background: #f7fafc;
+        }
+
+        .price-category {
+            margin-bottom: 50px;
+        }
+
+        .category-title {
+            font-size: 1.5rem;
+            color: #2d3748;
+            margin-bottom: 25px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .price-table {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .price-row {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            padding: 15px 25px;
+            border-bottom: 1px solid #e2e8f0;
+            align-items: center;
+        }
+
+        .price-row:last-child {
+            border-bottom: none;
+        }
+
+        .price-header {
+            background: #667eea;
+            color: white;
+            font-weight: 600;
+            font-size: 1.1rem;
+        }
+
+        .price-row:not(.price-header):hover {
+            background: #f7fafc;
+        }
+
+        .price-row span:first-child {
+            color: #4a5568;
+        }
+
+        .price-row span:last-child {
+            text-align: right;
+            font-weight: 600;
+            color: #667eea;
+        }
+
+        .price-header span {
+            color: white !important;
+        }
+
+        .price-free {
+            color: #48bb78 !important;
+            font-weight: 700;
+        }
+
+        .price-notes {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .notes-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .note-card {
+            background: #f7fafc;
+            padding: 30px;
+            border-radius: 12px;
+            border-left: 4px solid #667eea;
+        }
+
+        .note-card h3 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.2rem;
+        }
+
+        .note-card ul {
+            list-style: none;
+        }
+
+        .note-card li {
+            padding: 8px 0;
+            color: #4a5568;
+            position: relative;
+            padding-left: 20px;
+            line-height: 1.5;
+        }
+
+        .note-card li:before {
+            content: '•';
+            color: #667eea;
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+
+        .contact-cta {
+            margin-top: 60px;
+        }
+
+        .cta-content {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 50px;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .cta-content h3 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+
+        .cta-content p {
+            margin-bottom: 30px;
+            opacity: 0.9;
+            font-size: 1.1rem;
+        }
+
+        .cta-buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        @media (max-width: 768px) {
+            .price-row {
+                grid-template-columns: 1fr;
+                gap: 8px;
+                text-align: left;
+            }
+
+            .price-row span:last-child {
+                text-align: left;
+                font-size: 1.1rem;
+            }
+
+            .notes-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .price-row {
+                padding: 12px 15px;
+            }
+
+            .category-title {
+                font-size: 1.2rem;
+            }
+
+            .cta-content {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+
+    <!-- Popup форма -->
+    <div class="popup-overlay" id="popupOverlay">
+        <div class="popup-content">
+            <button class="popup-close" id="popupClose">&times;</button>
+            <h3 id="popupTitle">Получить консультацию</h3>
+            <p id="popupSubtitle">Оставьте ваши контакты и мы свяжемся с вами в течение 15 минут</p>
+            <form class="popup-form" id="popupForm">
+                <div class="form-group">
+                    <input type="text" id="userName" name="name" placeholder="Ваше имя" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="userPhone" name="phone" placeholder="+375 (__) ___-__-__" required>
+                </div>
+                <button type="submit" class="btn btn-primary popup-submit">Отправить заявку</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
